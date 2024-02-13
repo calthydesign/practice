@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript練習問題</title>
+  </head>
+  <body>
+    <h1>js練習問題</h1>
+    <p>
+      scriptタグ内のコメントは、「//項目名｜問題の内容」という記載になっています。<br />
+      解き終わったらコメントアウトして次の問題に取り組みましょう！
+    </p>
+    <p>文字列に""ををつけるのを忘れずに〜！！</p>
+    <p>
+      ここまで読んだらscriptのコメントの「変数の定義」から解いていってください。
+    </p>
+    <br />
+    <hr />
+    <p>ここから下は演習中で使います。</p>
+    <br />
+    <div id="s">DOMの演習1をこのあたりで行います。</div>
+    <br />
+    <br />
+    <button id="t">EVENT演習</button><br /><br /><br />
+    <button id="y">jQuery演習</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      //変数の定義｜例題：a=1, b=2と定義、アラートで和を表示させる。その後b=10に上書きして再表示
+      //   let a = 1;
+      //   let b =2;
+      //   b = 10;
+      //   let add =a + b;
+      //   alert(add);
+
+      //定数の定義｜例題：c=3, d=4と定義、アラートで和を表示させる。d=10に上書きしてエラーメッセージをアラートで確認
+      //   const c = 3;
+      //   const d = 4;
+      //   d = 10;
+      //   const add = c + d;
+      //   alert(add);
+
+      //演算子｜足し算：1足す20 コンソールにeとして出力
+      //   let e = 1 + 20;
+      //   console.log(e);
+
+      //演算子｜引き算：1引く20 コンソールにfとして出力
+      //   let f = 1-20;
+      //   console.log(f);
+
+      //演算子｜かけ算：2かける20 コンソールにgとして出力
+      //   let g = 2*20;
+      //   console.log(g);
+
+      //演算子｜割り算：20わる2 コンソールにhとして出力
+      //   let h = 20 / 2;
+      //   console.log(h);
+
+      //演算子｜割った余り：20÷3 コンソールにiとして出力
+      //   let i = 20%3;
+      //   console.log(i);
+
+      //演算子｜j=1と定義し、定義した値に9を足す(省略形) コンソールにjとして出力
+      //   let j = 1;
+      //   j += 9;
+      //   console.log(j);
+
+      //条件分岐｜例題：値が同じなら10だよ！とアラート表示
+      //   const k = 10;
+      //   if(k == 10) {
+      //     alert("10だよ！");
+      //   }
+
+      //条件分岐｜例題：値が同じなら「20だよ！」とアラート表示、それ以外ならそれ以外だよ！とアラート表示
+      //   const l = 21;
+      //   if(l == 20) {
+      //     alert("20だよ！");
+      //   } else {
+      //     alert("それ以外だよ！");
+      //   }
+
+      //条件分岐｜例題：10より大きければ「10より大きい！」とアラート表示、それ以外ならそれ以外だよ！とアラート表示
+      //   const m = 14;
+      //   if (m > 10) {
+      //     alert("10より大きい！");
+      //   } else {
+      //     alert("それ以外だよ！");
+      //   }
+
+      //条件分岐｜例題：10より小さければ「10より小さい！」とアラート表示、それ以外ならそれ以外だよ！とアラート表示
+      //   const n = 8;
+      //   if (n < 10) {
+      //     alert("10より小さい！");
+      //   } else {
+      //     alert("それ以外だよ！");
+      //   }
+
+      //論理演算子｜例題：5〜15なら「OK！」とアラート表示
+      //   const o = 10;
+      //   if(o >= 5 && o <= 15){
+      //     alert("OK！");
+      //   }
+
+      //論理演算子｜例題：5か10なら「OK！」とアラート表示
+      //   const p = 10;
+      //   if (p == 5 || p == 10) {
+      //     alert("OK！");
+      //   }
+
+      //Mathオブジェクト｜例題：小数点の数字をランダムでアラート表示 qとして出力
+      //   const q = Math.random();
+      //   alert(q);
+
+      //Mathオブジェクト｜例題：小数点の数字をランダムで選び切り上げてアラート表示 1-5までになるように rとして出力
+      //   const r = Math.ceil(Math.random()*5); //Math.randomの;は不要！
+      //   alert(r);
+
+      //DOM｜例題：sのIDを取得し、CSSで背景色を#ff0、フォントサイズを30pxに変更する
+      //   const s = document.querySelector("#s");
+      //   s.style.backgroundColor = "#ff0";
+      //   s.style.fontSize = "30px";
+
+      //EVENT｜例題：EVENT演習のボタン(IDはt)をクリックしたら「クリック！」というアラートが表示
+      //   document.querySelector("#t").onclick = function () {
+      //     alert("クリック！");
+      //   };
+
+      //jQuery｜例題：jQuery演習のボタン（IDはy）をクリックしたら1秒でふわっと消える ※CND読み込み済み
+      //   $("#y").on("click", function () {
+      //     $("#y").fadeOut(1000);
+      //   });
+    </script>
+  </body>
+</html>
